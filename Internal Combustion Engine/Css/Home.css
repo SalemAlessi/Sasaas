@@ -1,0 +1,58 @@
+
+.Homeh1{
+    text-align: center;
+    background-color: brown;
+    border-radius: 20px;
+    color: white;
+}
+body{
+    height: 1000px;
+}
+.Navbar {
+    background-color: aquamarine;
+    position: sticky;
+    top:0;
+    
+
+}
+.Navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: lightgray; 
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+}
+
+
+ li a {
+    display: block;
+    color: blue;
+   font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-left: 3px solid black;
+}
+
+/* .active{
+    background-color: green;
+    color: white;
+}   */
+
+.active:hover{
+    background-color: red;
+    color: black;
+}  
+
+ li a:hover {
+    background-color: rgb(50, 47, 47);
+    color: white;
+    border-left: 0px solid black;
+}
+
+
+
